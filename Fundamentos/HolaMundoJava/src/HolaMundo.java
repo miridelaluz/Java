@@ -67,7 +67,11 @@ public class HolaMundo {
         var titulo = consola.nextLine();
         System.out.println("Resultado: " + titulo + " " + usuario);
         
-        
+        System.out.println("Proporciona el titulo del libro");
+        var tituloLibro = consola.nextLine();
+        System.out.println("Proporciona el autor del libro");
+        var autorLibro = consola.nextLine();
+        System.out.println(tituloLibro + " fue escrito por " + autorLibro);
         
     }
 }
